@@ -7,9 +7,6 @@
 // Instantiate some types from each module to test for linker issues. This program is not meant be ran.
 int main()
 {
-    // Audio
-    [[maybe_unused]] const sf::SoundBufferRecorder soundBufferRecorder;
-
     // Graphics
     [[maybe_unused]] const sf::Color          color;
     [[maybe_unused]] const sf::IntRect        rect;
